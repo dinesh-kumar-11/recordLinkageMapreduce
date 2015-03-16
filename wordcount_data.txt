@@ -1,0 +1,29 @@
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.pom (2 KB at 0.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar (26 KB at 33.2 KB/sec)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.dinesh.entityresolution.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ entityresolution ---
+[INFO] Building jar: /home/dinesh/Documents/dissertation/sourcecode/recordLinkageMapreduce/target/entityresolution-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ entityresolution ---
+[INFO] Installing /home/dinesh/Documents/dissertation/sourcecode/recordLinkageMapreduce/target/entityresolution-0.0.1-SNAPSHOT.jar to /home/dinesh/.m2/repository/org/dinesh/entityresolution/0.0.1-SNAPSHOT/entityresolution-0.0.1-SNAPSHOT.jar
+[INFO] Installing /home/dinesh/Documents/dissertation/sourcecode/recordLinkageMapreduce/pom.xml to /home/dinesh/.m2/repository/org/dinesh/entityresolution/0.0.1-SNAPSHOT/entityresolution-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.608s
+[INFO] Finished at: Mon Mar 16 09:45:23 IST 2015
+[INFO] Final Memory: 35M/268M
+
