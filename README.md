@@ -22,8 +22,8 @@ A Record Linkage / Entity Resolution Framework in hadoop mapreduce
 
 Step by step :
 
-Add cloudera your settings.xml (under ${HOME}/.m2/settings.xml) to access hadoop dependencies
-
+* Add cloudera your settings.xml (under ${HOME}/.m2/settings.xml) to access hadoop dependencies
+```
 <repository>
      <id>cloudera</id>
      <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
@@ -34,8 +34,9 @@ Add cloudera your settings.xml (under ${HOME}/.m2/settings.xml) to access hadoop
           <enabled>true</enabled>
      </snapshots>
 </repository>
-Add hadoop dependencies to your pom.xml .
-
+```
+* Add hadoop dependencies to your pom.xml .
+```
 <dependency>
     <groupId>org.apache.hadoop</groupId>
     <artifactId>hadoop-hdfs</artifactId>
@@ -56,4 +57,5 @@ Add hadoop dependencies to your pom.xml .
     <artifactId>hadoop-core</artifactId>
     <version>1.2.1</version>
 </dependency>
-Then try to "mvn clean install" command into project folder that contains pom.xml file
+```
+* Then try to "mvn clean install" command into project folder that contains pom.xml file
