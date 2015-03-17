@@ -1,7 +1,7 @@
 package org.dinesh.entityresolution;
 
 /**
- * Hello world!
+ * An record linkage or entity resolution framework using mapreduce
  * 
  */
 public class EntityResolver {
