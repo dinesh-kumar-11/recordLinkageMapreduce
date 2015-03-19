@@ -80,4 +80,9 @@ public class StringUtils {
     }
     return tmp.toString();
   }
+  
+  public static String[] splitCsvString(String line) {
+      String[] tokens = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+      return tokens;
+  }
 }

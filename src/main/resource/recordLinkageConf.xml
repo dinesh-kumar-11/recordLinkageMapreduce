@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>config.file.path</name>
+		<value>example-data/countries.xml</value>
+		<description>
+			The config path in hdfs filesystem
+		</description>
+	</property>
+	<property>
+		<name>input.file.path</name>
+		<value>/er_data/example-data/</value>
+		<description>
+			The input path in hdfs filesystem
+		</description>
+	</property>
+	<property>
+		<name>output.file.path</name>
+		<value>/er_data/example-data/output</value>
+		<description>
+			The out path in hdfs filesystem
+		</description>
+	</property>
+</configuration>
